@@ -1,0 +1,298 @@
+.container {
+    margin: 40px auto;
+    max-width: 1075px;
+}
+
+
+.information-contact {
+    background: #edd5d5;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img.avatar{
+    border-radius: 999px;
+}
+
+.img-avatar {
+    max-width: 271px;
+    max-height: 271px;
+}
+.avatar-and-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+    margin-bottom: 15px;
+}
+
+p.name {
+    font-size: 59px;
+    text-transform: uppercase;
+    color: #522d2d;
+}
+
+p.position {
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    color: #522d2d;
+}
+
+.infor-private {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.information-general {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    background: #92df92;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+
+i{
+    display: block;
+    margin-top: 9px;
+    color: white;
+    font-size: 19px;
+    margin-left: 11px;
+}
+
+p.description {
+    font-size: 20px;
+    color: #522d2d;
+}
+
+.infor-private {
+    margin-left: 20px;
+}
+
+.border {
+    border: 2px solid #b9b97c;
+    margin-bottom: 14px;
+}
+
+p.text-about-me {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #522d2d;
+    font-weight: 700;
+}
+
+p.text-des-about-me {
+    font-size: 19px;
+    color: #522d2d;
+}
+
+p{
+    color: #522d2d;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+.border-col-1 {
+    width: 280px;
+    background: green;
+    height: 3px;
+    margin-top: -26px;
+    margin-bottom: 24px;
+}
+
+p.title-content-col-1 {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.border-cut {
+    width: 4px;
+    background: green;
+}
+
+.content-col-1 {
+    width: 300px;
+}
+
+.border-col-2 {
+    width: 280px;
+    background: green;
+    height: 3px;
+    margin-top: -26px;
+    margin-bottom: 24px;
+}
+
+p.title-job {
+    font-weight: 700;
+}
+
+li {
+    margin-top: 13px;
+    font-size: 16px;
+}
+
+.major {
+    font-weight: 700;
+}
+
+span.time-1 {
+    padding-left: 219px;
+}
+
+span.time-2 {
+    padding-left: 49px;
+}
+
+span.time-3 {
+    padding-left: 348px;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+
+.about-me {
+    padding-left: 46px;
+    background: #def0de;
+    margin-top: 0px;
+    padding-right: 46px;
+    padding-top: 2px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    background: #def0de;
+    margin-top: -19px;
+    padding-left: 49px;
+    padding-right: 39px;
+    padding-bottom: 30px;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .avatar-and-name {
+        display: row;
+        flex-direction: column;
+    }
+    .information-general {
+        flex-direction: column;
+    }
+    .infor-private {
+        margin-left: 137px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content-col-1 {
+        width: 100%;
+    }
+    .border-cut {
+        width: 99%;
+        height: 4px;
+        background: #0f740f;
+    }
+    .border-col-1 {
+        width: 99%;
+    }
+    p.title-content-col-1 {
+        text-align: center;
+    }
+    .border-col-2 {
+        width: 99%;
+    }
+  }
+
+  @media only screen and (max-width: 666px) {
+    p.position {
+        font-size: 28px;
+    }
+    p.name {
+        font-size: 28px;
+    }
+    .infor-private {
+        margin-left: 0px;
+    }
+    p.text-about-me {
+        font-size: 22px;
+    }
+    p.text-des-about-me {
+        font-size: 14px;
+    }
+    p.title-content-col-1 {
+        font-size: 23px;
+    }
+    li {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+    p.title-certificates {
+        font-size: 14px;
+    }
+    p.content-certificates {
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+    b{
+        font-size: 14px;
+    }
+    span.time-1 {
+        display: block;
+        padding-left: 0;
+    }
+    span.time-2 {
+        display: block;
+        padding-left: 0;
+    }
+    span.time-3 {
+        display: block;
+        padding-left: 0;
+    }
+    i.fab.fa-facebook-square {
+        width: 28px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+    i{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+    p.description {
+        font-size: 14px;
+    }
+    i.fab.fa-facebook-square {
+        width: 20px;
+    }
+  }
