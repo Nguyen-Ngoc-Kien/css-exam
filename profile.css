@@ -103,7 +103,7 @@ p.text-about-me {
 
 p.text-des-about-me {
     font-family: "Open Sans", sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     color: #522d2d;
 }
 
@@ -134,6 +134,7 @@ p.title-content-col-1 {
 .border-cut {
     width: 4px;
     background: green;
+    margin-top: 20px;
 }
 
 .content-col-1 {
