@@ -36,12 +36,14 @@ img.avatar{
 }
 
 p.name {
+    font-family: "Open Sans", sans-serif;
     font-size: 59px;
     text-transform: uppercase;
     color: #522d2d;
 }
 
 p.position {
+    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 62px;
     margin-bottom: 37px;
@@ -76,6 +78,7 @@ i{
 }
 
 p.description {
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: #522d2d;
 }
@@ -90,6 +93,7 @@ p.description {
 }
 
 p.text-about-me {
+    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
@@ -98,11 +102,13 @@ p.text-about-me {
 }
 
 p.text-des-about-me {
+    font-family: "Open Sans", sans-serif;
     font-size: 19px;
     color: #522d2d;
 }
 
 p{
+    font-family: "Open Sans", sans-serif;
     color: #522d2d;
 }
 
@@ -143,10 +149,12 @@ p.title-content-col-1 {
 }
 
 p.title-job {
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
 }
 
 li {
+    font-family: "Open Sans", sans-serif;
     margin-top: 13px;
     font-size: 16px;
 }
@@ -156,14 +164,17 @@ li {
 }
 
 span.time-1 {
+    font-family: "Open Sans", sans-serif;
     padding-left: 219px;
 }
 
 span.time-2 {
+    font-family: "Open Sans", sans-serif;
     padding-left: 49px;
 }
 
 span.time-3 {
+    font-family: "Open Sans", sans-serif;
     padding-left: 348px;
     display: block;
     padding-top: 12px;
@@ -290,9 +301,15 @@ ul {
         margin-left: 8px;
     }
     p.description {
+        
         font-size: 14px;
     }
     i.fab.fa-facebook-square {
         width: 20px;
     }
   }
+
+  .detail-project {
+    margin-top: 8px;
+}
+
